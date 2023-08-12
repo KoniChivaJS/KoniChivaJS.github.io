@@ -1,0 +1,19 @@
+.options{
+    width: 100%;
+}
+
+.options-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.wrapper .item{
+    margin: 10px 10px;
+}

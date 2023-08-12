@@ -1,0 +1,75 @@
+
+.main{
+    width: 100%;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /*poduvus*/
+}
+
+.main-title{
+    font-size: 4em;
+    width: 28%;
+}
+
+.burger-image{
+    width: 33%;
+}
+.burger-image img{
+    width: 100% !important;
+}
+
+.summary{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+.summary h3{
+    font-size: 2em;
+}
+
+.price{
+    width: 100%;
+    display: flex;
+    color:rgb(105, 0, 198);
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2em;
+}
+.price button{
+    width: 40%;
+    height: 60px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: rgb(105, 0, 198);
+    font-size: 1.3em;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+
+.summary-info{
+    width: 90%;
+    height: 30px;
+    border-radius: 50px;
+    background-color: rgba(182, 182, 182,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2em;
+    padding: 20px;
+    font-weight: 500;
+}
+
+.summary-info img{
+    width: 60px;
+}
+.time, .oz, .kcal{
+    display: flex;
+    align-items: center;
+    
+}
